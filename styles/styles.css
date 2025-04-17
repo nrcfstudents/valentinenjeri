@@ -1,0 +1,61 @@
+body{
+	background: goldenrod;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 60px;
+	margin-bottom: 30px;
+}
+.projects-main-container{
+	display: flex;
+	justify-content: space-between;
+}
+.project-container {
+    border: solid 1px #e0e0e0; /* Soft, light border */
+    padding: 40px 60px; /* Adjust padding for more balanced spacing */
+    background-color: palegoldenrod; /* Clean, white background */
+    border-radius: 12px; /* Rounded corners for a modern feel */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    max-width: 800px; /* Limit width to prevent it from becoming too wide */
+    margin: 20px auto; /* Center the container with space around it */
+    font-family: 'Arial', sans-serif; /* Choose a clean and modern font */
+    color: #333; /* Dark text for good readability */
+}
+
+.project-container:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2); /* Darker shadow for hover effect */
+    transform: translateY(-5px); /* Lift effect on hover */
+    background-color: #f9f9f9; /* Subtle color change on hover */
+}
+
+.project-container h2 {
+    font-size: 24px;
+    color: #333; /* Dark text color for headings */
+    margin-bottom: 20px;
+}
+
+.project-container p {
+    font-size: 16px;
+    line-height: 1.6; /* Better line spacing for readability */
+    color: #555; /* Slightly lighter color for paragraph text */
+}
+
+.project-container .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Attractive blue button */
+    color: powderblue; /* White text */
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition for button */
+}
+
+.project-container .btn:hover {
+    background-color: #0056b3; /* Darker blue when hovered */
+}
+
+.nav-bar{
+	display: flex;
+	justify-content: space-between;
+}
